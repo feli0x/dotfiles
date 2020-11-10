@@ -17,3 +17,5 @@ if [[ `git status --porcelain` ]]; then
 	git commit -m "Update: $(timestamp)"
 	git push origin master
 fi
+
+curl -m 10 --retry 5 https://hc-ping.com/466d55fd-1aaa-46b3-a0b8-a6659cf4c279
