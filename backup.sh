@@ -1,7 +1,7 @@
 #!/bin/sh
 
 timestamp() {
-  date +"%d-%m-%Y at %T"
+  date +"%d-%m-%Y"
 }
 
 
@@ -13,6 +13,6 @@ cp ~/.vimrc ~/dotfiles/macos/.vimrc
 if [[ `git status --porcelain` ]]; then
 	git pull origin master
 	git add .
-	git commit -m "automatic update: $(timestamp)"
+	git commit -m "update: $(timestamp)"
 	git push origin master
 fi
