@@ -1,4 +1,5 @@
 alias config='vim ~/.bashrc'
+alias calias='vim ~/.bash_aliases'
 alias ohmybash='vim ~/.oh-my-bash'
 alias vimconfig='vim ~/.vimrc'
 alias t='tmux'
