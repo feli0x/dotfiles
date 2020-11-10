@@ -111,6 +111,9 @@ alias config="vim ~/.zshrc"
 alias bs="brew search"
 alias bi="brew install"
 alias bci="brew cask install"
+alias trea="tree -a | more"
+alias webdev="cd ${HOME}/Documents/webdev"
+alias dotfiles="cd ${HOME}/dotfiles/macos && bash backup.sh"
 
 #
 # hide user@hostname
