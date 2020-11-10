@@ -1,5 +1,10 @@
 #!/bin/sh
 
+timestamp() {
+  date +"%d-%m-%Y at %T"
+}
+
+
 # copy dotfiles
 cp ~/.zshrc ~/dotfiles/macos/.zshrc
 cp ~/.vimrc ~/dotfiles/macos/.vimrc
