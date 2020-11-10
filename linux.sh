@@ -7,6 +7,7 @@ timestamp() {
 
 # copy dotfiles
 cp ~/.bashrc ~/dotfiles/linux/.bashrc
+cp ~/.bash_aliases ~/dotfiles/linux/.bash_aliases
 cp ~/.vimrc ~/dotfiles/linux/.vimrc
 
 # push

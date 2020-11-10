@@ -95,5 +95,3 @@ source $OSH/oh-my-bash.sh
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
 fi
-
-
