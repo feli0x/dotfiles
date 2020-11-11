@@ -25,21 +25,4 @@ git clone https://github.com/mg979/vim-visual-multi.git  ~/.vim/bundle/vim-visua
 git clone https://github.com/mxw/vim-jsx ~/.vim/bundle/vim-jsx
 
 ## VIMRC
-echo ' >> Hacking ~/vim.rc'
-mv ~/.vimrc ~/.vimrc.bk
-echo -e "execute pathogen#infect()" >> ~/.vimrc
-echo -e "colorscheme dracula" >> ~/.vimrc
-echo -e "syntax on" >> ~/.vimrc
-echo -e "filetype plugin indent on" >> ~/.vimrc
-echo -e "set number" >> ~/.vimrc
-echo -e "map <C-n> :NERDTreeToggle<CR>" >> ~/.vimrc
-echo -e "map <C-c> :q<CR>" >> ~/.vimrc
-echo -e "let g:startify_custom_header = [" >> ~/.vimrc
-echo -e "\ '    ██╗   ██╗██╗███╗   ███╗██╗     ██╗███████╗███████╗'," >> ~/.vimrc
-echo -e "\ '    ██║   ██║██║████╗ ████║██║     ██║██╔════╝██╔════╝'," >> ~/.vimrc
-echo -e "\ '    ██║   ██║██║██╔████╔██║██║     ██║█████╗  █████╗  '," >> ~/.vimrc
-echo -e "\ '    ╚██╗ ██╔╝██║██║╚██╔╝██║██║     ██║██╔══╝  ██╔══╝  '," >> ~/.vimrc
-echo -e "\ '     ╚████╔╝ ██║██║ ╚═╝ ██║███████╗██║██║     ███████╗'," >> ~/.vimrc
-echo -e "\ '      ╚═══╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝╚═╝     ╚══════╝'," >> ~/.vimrc
-echo -e "\ '                                            @_tgifelix'," >> ~/.vimrc
-echo -e "\ ]" >> ~/.vimrc
+curl -LSso  ~/.vimrc https://github.com/TGIFelix/dotfiles/blob/master/linux/.vimrc -o

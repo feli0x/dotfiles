@@ -1,4 +1,4 @@
-s!/bin/bash/
+#!/bin/bash/
 cd
 echo ##
 echo -e '██╗    ██╗ █████╗ ██████╗    ██████╗ ██╗'
@@ -16,17 +16,19 @@ sudo apt upgrade -y
 
 # apt
 echo ' >> installing scripts'
-sudo apt install git curl wget tmux vim npm neofetch htop -y
+sudo apt install git curl tmux vim npm neofetch htop nmap wifite kismet -y
 
 # ohmybash
 echo ' >> installing Oh-My-Bash'
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
 
 # dotfiles
-curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bashrc -o ${HOME}/.bashrc
-curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bash_aliases -o ${HOME}/.bash_aliases
-curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.htp -o ${HOME}/.htp
-curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.ftn -o ${HOME}/.ftn
+curl -LSso ${HOME}/.bashrc https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bashrc
+curl -LSso ${HOME}/.bash_aliases https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bash_aliases
+curl -LSso ${HOME}/.htp https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.htp
+curl -LSso ${HOME}/.ftn https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.ftn
+
+
 
 # MOTD
 echo ' >> changing motd'
@@ -41,6 +43,7 @@ sudo echo -e '╚███╔███╔╝██║  ██║██║  █�
 sudo echo -e ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝' >> /etc/motd
 sudo echo -e '                      v1.0 by @vim__life' >> /etc/motd
 sudo echo -e '\n' >> /etc/motd
+
 
 #reboot
 echo -e '██   ██  █████  ██████  ██████  ██    ██ '
