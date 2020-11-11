@@ -9,6 +9,8 @@ timestamp() {
 cp ~/.bashrc ~/dotfiles/linux/.bashrc
 cp ~/.bash_aliases ~/dotfiles/linux/.bash_aliases
 cp ~/.vimrc ~/dotfiles/linux/.vimrc
+cp ~/.htp ~/dotfiles/linux/.htp
+cp ~/.ftn ~/dotfiles/linux.ftn
 
 # push
 if [[ `git status --porcelain` ]]; then
