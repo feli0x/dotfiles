@@ -1,4 +1,4 @@
-#!/bin/bash/
+s!/bin/bash/
 cd
 echo ##
 echo -e '██╗    ██╗ █████╗ ██████╗    ██████╗ ██╗'
@@ -28,8 +28,6 @@ curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bash_alia
 curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.htp -o ${HOME}/.htp
 curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.ftn -o ${HOME}/.ftn
 
-
-
 # MOTD
 echo ' >> changing motd'
 sudo mv /etc/motd /etc/motd.bk
@@ -43,7 +41,6 @@ sudo echo -e '╚███╔███╔╝██║  ██║██║  █�
 sudo echo -e ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝' >> /etc/motd
 sudo echo -e '                      v1.0 by @vim__life' >> /etc/motd
 sudo echo -e '\n' >> /etc/motd
-
 
 #reboot
 echo -e '██   ██  █████  ██████  ██████  ██    ██ '
