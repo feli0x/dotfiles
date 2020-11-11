@@ -113,7 +113,7 @@ alias bi="brew install"
 alias bci="brew cask install"
 alias trea="tree -a | more"
 alias webdev="cd ${HOME}/Documents/webdev"
-alias dotfiles="cd ${HOME}/dotfiles/macos && bash backup.sh && cd"
+alias dotfiles="cd ${HOME}/dotfiles/macos && bash backup.sh && cd ${HOME}/"
 
 #
 # hide user@hostname
