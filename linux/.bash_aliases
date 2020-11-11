@@ -1,3 +1,4 @@
+alias upup='sudo apt update && sudo apt upgrade -y'
 alias config='vim ~/.bashrc'
 alias calias='vim ~/.bash_aliases'
 alias ohmybash='vim ~/.oh-my-bash'
