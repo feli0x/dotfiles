@@ -25,4 +25,4 @@ git clone https://github.com/mg979/vim-visual-multi.git  ~/.vim/bundle/vim-visua
 git clone https://github.com/mxw/vim-jsx ~/.vim/bundle/vim-jsx
 
 ## VIMRC
-curl -LSso  ~/.vimrc https://github.com/TGIFelix/dotfiles/blob/master/linux/.vimrc
+curl -LSso  ~/.vimrc https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.vimrc
