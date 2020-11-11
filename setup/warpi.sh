@@ -25,6 +25,10 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 # dotfiles
 curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bashrc -o ${HOME}/.bashrc
 curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bash_aliases -o ${HOME}/.bash_aliases
+curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.htp -o ${HOME}/.htp
+curl https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.ftn -o ${HOME}/.ftn
+
+
 
 # MOTD
 echo ' >> changing motd'
