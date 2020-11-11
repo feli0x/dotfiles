@@ -7,7 +7,7 @@ echo -e '██║ █╗ ██║███████║██████╔
 echo -e '██║███╗██║██╔══██║██╔══██╗   ██╔═══╝ ██║'
 echo -e '╚███╔███╔╝██║  ██║██║  ██║██╗██║     ██║'
 echo -e ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝'
-echo -e '                      v1.0 by @vim__life'
+echo -e '                      v1.0 by @_tgifelix'
 echo ##
 echo ##
 echo ' >> updating apt'
@@ -27,6 +27,7 @@ curl -LSso ${HOME}/.bashrc https://raw.githubusercontent.com/TGIFelix/dotfiles/m
 curl -LSso ${HOME}/.bash_aliases https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.bash_aliases
 curl -LSso ${HOME}/.htp https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.htp
 curl -LSso ${HOME}/.ftn https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.ftn
+git clone https://github.com/TGIFelix/dotfiles.git 
 
 
 
@@ -41,7 +42,7 @@ sudo echo -e '██║ █╗ ██║███████║█████�
 sudo echo -e '██║███╗██║██╔══██║██╔══██╗   ██╔═══╝ ██║' >> /etc/motd
 sudo echo -e '╚███╔███╔╝██║  ██║██║  ██║██╗██║     ██║' >> /etc/motd
 sudo echo -e ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝' >> /etc/motd
-sudo echo -e '                      v1.0 by @vim__life' >> /etc/motd
+sudo echo -e '                      v1.0 by @_tgifelix' >> /etc/motd
 sudo echo -e '\n' >> /etc/motd
 
 
