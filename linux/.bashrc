@@ -68,6 +68,7 @@ aliases=(
 plugins=(
   git
   bashmarks
+  npm
 )
 
 source $OSH/oh-my-bash.sh
