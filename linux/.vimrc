@@ -2,15 +2,6 @@ execute pathogen#infect()
 colorscheme dracula
 syntax on
 filetype plugin indent on
-let g:startify_custom_header = [
-\ '    ██╗   ██╗██╗███╗   ███╗██╗     ██╗███████╗███████╗',
-\ '    ██║   ██║██║████╗ ████║██║     ██║██╔════╝██╔════╝',
-\ '    ██║   ██║██║██╔████╔██║██║     ██║█████╗  █████╗  ',
-\ '    ╚██╗ ██╔╝██║██║╚██╔╝██║██║     ██║██╔══╝  ██╔══╝  ',
-\ '     ╚████╔╝ ██║██║ ╚═╝ ██║███████╗██║██║     ███████╗',
-\ '      ╚═══╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝╚═╝     ╚══════╝',
-\ '                                            @_tgifelix',
-\ ]
 set number
 set nocompatible
 set clipboard=unnamed
