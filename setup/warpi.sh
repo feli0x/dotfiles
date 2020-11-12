@@ -16,7 +16,7 @@ sudo apt upgrade -y
 
 # apt
 echo ' >> installing scripts'
-sudo apt install git curl tmux vim npm neofetch htop nmap wifite kismet -y
+sudo apt install git curl tmux vim npm mosh neofetch htop nmap wifite kismet -y
 
 # ohmybash
 echo ' >> installing Oh-My-Bash'
@@ -28,23 +28,6 @@ curl -LSso ${HOME}/.bash_aliases https://raw.githubusercontent.com/TGIFelix/dotf
 curl -LSso ${HOME}/.htp https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.htp
 curl -LSso ${HOME}/.ftn https://raw.githubusercontent.com/TGIFelix/dotfiles/master/linux/.ftn
 git clone https://github.com/TGIFelix/dotfiles.git 
-
-
-
-# MOTD
-echo ' >> changing motd'
-sudo mv /etc/motd /etc/motd.bk
-sudo touch /etc/motd
-sudo echo -e '\n' >> /etc/motd
-sudo echo -e '██╗    ██╗ █████╗ ██████╗    ██████╗ ██╗' >> /etc/motd
-sudo echo -e '██║    ██║██╔══██╗██╔══██╗   ██╔══██╗██║' >> /etc/motd
-sudo echo -e '██║ █╗ ██║███████║██████╔╝   ██████╔╝██║' >> /etc/motd
-sudo echo -e '██║███╗██║██╔══██║██╔══██╗   ██╔═══╝ ██║' >> /etc/motd
-sudo echo -e '╚███╔███╔╝██║  ██║██║  ██║██╗██║     ██║' >> /etc/motd
-sudo echo -e ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝' >> /etc/motd
-sudo echo -e '                      v1.0 by @_tgifelix' >> /etc/motd
-sudo echo -e '\n' >> /etc/motd
-
 
 #reboot
 echo -e '██   ██  █████  ██████  ██████  ██    ██ '
