@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Aliases
 alias pi="ssh w@rpi.local"
+alias c="clear"
 alias remoteon="sudo systemsetup -setremotelogin on"
 alias remoteoff="sudo systemsetup -setremotelogin off"
 alias x="exit"
