@@ -115,6 +115,8 @@ alias bci="brew cask install"
 alias trea="tree -a | more"
 alias webdev="cd ${HOME}/Documents/webdev"
 alias dotfiles="cd ${HOME}/dotfiles/macos && bash backup.sh && cd ${HOME}/"
+alias nrd="npm run dev"
+alias nrb="npm run build"
 
 #
 # hide user@hostname
