@@ -114,13 +114,8 @@ alias bi="brew install"
 alias bci="brew cask install"
 alias trea="tree -a | more"
 alias webdev="cd ${HOME}/Documents/webdev"
+alias wd="cd ${HOME}/Documents/webdev"
 alias dotfiles="cd ${HOME}/dotfiles/macos && bash backup.sh && cd ${HOME}/"
 alias nrd="npm run dev"
 alias nrb="npm run build"
-
-#
-# hide user@hostname
-#prompt_context(){}
-
-#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
+alias remove="rm -rf"
