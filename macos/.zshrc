@@ -75,7 +75,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew npm node osx sudo docker)
+plugins=(brew node osx sudo docker)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -113,7 +113,6 @@ alias bs="brew search"
 alias bi="brew install"
 alias bci="brew cask install"
 alias trea="tree -a | more"
-alias webdev="cd ${HOME}/Documents/webdev"
 alias wd="cd ${HOME}/Documents/webdev"
 alias dotfiles="cd ${HOME}/dotfiles/macos && bash backup.sh && cd ${HOME}/"
 alias nrd="npm run dev"
