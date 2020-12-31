@@ -14,3 +14,4 @@ let g:startify_custom_header = [
 \ ]
 nmap <C-n> :NERDTreeToggle<CR>
 nmap <C-c> :q<CR>
+ set rtp+=/usr/local/opt/fzf
