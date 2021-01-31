@@ -8,6 +8,7 @@ timestamp() {
 # copy dotfiles
 cp $HOME/.zshrc $HOME/dotfiles/macos/.zshrc
 cp $HOME/.vimrc $HOME/dotfiles/macos/.vimrc
+cp $HOME/.alias $HOME/dotfiles/macos/.alias
 
 # push
 if [[ `git status --porcelain` ]]; then
