@@ -101,4 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Aliases
-source $HOME/.alias
+source $HOME/.zsh_alias

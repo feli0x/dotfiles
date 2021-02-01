@@ -1,6 +1,5 @@
-alias zalias="vim ${HOME}/.zsh_alias"
-alias balias="vim ${HOME}/.bash_alias"
-alias calias="vim ${HOME}/.alias"
+alias zalias="vim ${HOME}/.zsh_aliases"
+alias balias="vim ${HOME}/.bash_aliases"
 alias pi="ssh w@rpi.local"
 alias c="clear"
 alias remoteon="sudo systemsetup -setremotelogin on"
