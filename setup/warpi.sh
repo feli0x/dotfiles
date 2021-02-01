@@ -1,13 +1,20 @@
-#!/bin/bash/
+#!/bin/bash
+Color_off='\033[0m'
+Color='\033[1;35m'
+# }}}
+fancyprint () {
+    printf '%b\n' "$1$2$Color_off" >&2
+}
+# }}}
 cd
 echo ##
-echo -e '██╗    ██╗ █████╗ ██████╗    ██████╗ ██╗'
-echo -e '██║    ██║██╔══██╗██╔══██╗   ██╔══██╗██║'
-echo -e '██║ █╗ ██║███████║██████╔╝   ██████╔╝██║'
-echo -e '██║███╗██║██╔══██║██╔══██╗   ██╔═══╝ ██║'
-echo -e '╚███╔███╔╝██║  ██║██║  ██║██╗██║     ██║'
-echo -e ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝'
-echo -e '                      v1.0 by @_tgifelix'
+fancyprint '██╗    ██╗ █████╗ ██████╗    ██████╗ ██╗'
+fancyprint '██║    ██║██╔══██╗██╔══██╗   ██╔══██╗██║'
+fancyprint '██║ █╗ ██║███████║██████╔╝   ██████╔╝██║'
+fancyprint '██║███╗██║██╔══██║██╔══██╗   ██╔═══╝ ██║'
+fancyprint '╚███╔███╔╝██║  ██║██║  ██║██╗██║     ██║'
+fancyprint ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝'
+fancyprint '                      v1.2 by @_tgifelix'
 echo ##
 echo ##
 echo ' >> updating apt'
@@ -16,7 +23,7 @@ sudo apt upgrade -y
 
 # apt
 echo ' >> installing scripts'
-sudo apt install git curl tmux vim npm mosh neofetch htop nmap wifite kismet -y
+sudo apt install git curl tmux vim npm mosh golang neofetch htop nmap wifite kismet -y
 
 # ohmybash
 echo ' >> installing Oh-My-Bash'
@@ -30,17 +37,17 @@ curl -LSso ${HOME}/.ftn https://raw.githubusercontent.com/TGIFelix/dotfiles/mast
 git clone https://github.com/TGIFelix/dotfiles.git 
 
 #reboot
-echo -e '██   ██  █████  ██████  ██████  ██    ██ '
-echo -e '██   ██ ██   ██ ██   ██ ██   ██  ██  ██  '
-echo -e '███████ ███████ ██████  ██████    ████   ' 
-echo -e '██   ██ ██   ██ ██      ██         ██    ' 
-echo -e '██   ██ ██   ██ ██      ██         ██    '
+fancyprint '██   ██  █████  ██████  ██████  ██    ██ '
+fancyprint '██   ██ ██   ██ ██   ██ ██   ██  ██  ██  '
+fancyprint '███████ ███████ ██████  ██████    ████   ' 
+fancyprint '██   ██ ██   ██ ██      ██         ██    ' 
+fancyprint '██   ██ ██   ██ ██      ██         ██    '
 echo ##
-echo -e '██   ██  █████   ██████ ██   ██ ██ ███    ██  ██████  '
-echo -e '██   ██ ██   ██ ██      ██  ██  ██ ████   ██ ██       '
-echo -e '███████ ███████ ██      █████   ██ ██ ██  ██ ██   ███ '
-echo -e '██   ██ ██   ██ ██      ██  ██  ██ ██  ██ ██ ██    ██ '
-echo -e '██   ██ ██   ██  ██████ ██   ██ ██ ██   ████  ██████  '
+fancyprint '██   ██  █████   ██████ ██   ██ ██ ███    ██  ██████  '
+fancyprint '██   ██ ██   ██ ██      ██  ██  ██ ████   ██ ██       '
+fancyprint '███████ ███████ ██      █████   ██ ██ ██  ██ ██   ███ '
+fancyprint '██   ██ ██   ██ ██      ██  ██  ██ ██  ██ ██ ██    ██ '
+fancyprint '██   ██ ██   ██  ██████ ██   ██ ██ ██   ████  ██████  '
 echo ##
 echo ' >> rebooting in 5, 4, 3, 2, 1... (press ctrl+c to stop)'
 sleep 7
