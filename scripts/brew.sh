@@ -6,7 +6,7 @@ Color='\033[1;35m'
 
 # }}}
 PACKAGES='npm neofetch yarn tree htop'
-CASKS='iterm2 visual-studio-code docker google-chrome brave-browser firefox-developer-edition browserosaurus vlc github raspberry-pi-imager kap'
+CASKS='iterm2 visual-studio-code docker google-chrome brave-browser  browserosaurus vlc github raspberry-pi-imager kap'
 
 # }}}
 fancyprint () {
@@ -22,10 +22,6 @@ do
         "install homebrew")
              fancyprint $Color ">> INSTALLING HOMEBREW"
             /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-            echo "1) install homebrew"
-            echo "2) install packages"
-            echo "3) install casks"
-            echo "4) exit"
             continue
             ;;
         "install packages")
@@ -33,11 +29,6 @@ do
             brew install ${PACKAGES}
             clear
             fancyprint ${Color} "Installed ${PACKAGES}"
-            echo ""
-            echo "1) install homebrew"
-            echo "2) install packages"
-            echo "3) install casks"
-            echo "4) exit"
             continue
             ;;
         "install casks")
@@ -45,11 +36,6 @@ do
             brew install --cask ${CASKS}
             clear
             fancyprint ${Color} "Installed ${PACKAGES}"
-            echo ""
-            echo "1) install homebrew"
-            echo "2) install packages"
-            echo "3) install casks"
-            echo "4) exit"
          continue
             ;;
         "exit")
