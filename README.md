@@ -16,9 +16,10 @@ mkdir dotfiles
 ```
 cp ~/.<filename> ~/dotfiles/.<filename>
 ```
-For example, I’ve added my `.zshrc` and `.vimrc` files
+For example, I’ve added my `.zshrc`, `.bashrc` and `.vimrc` files
 ```
 cp ~/.zshrc ~/dotfiles/.zshrc
+cp ~/.bashrc ~/dotfiles/.bashrc
 cp ~/.vimrc ~/dotfiles/.vimrc
 ```
 
@@ -54,6 +55,7 @@ timestamp() {
 
 # files to backup
 cp ~/.zshrc ~/dotfiles/.zshrc
+cp ~/.bashrc ~/dotfiles/.bashrc
 cp ~/.vimrc ~/dotfiles/.vimrc
 
 # pull & push
@@ -64,7 +66,7 @@ if [[ `git status --porcelain` ]]; then
     git push origin master
 fi
 ```
-As you can see I’ve added the `.zshrc` and `.vimrc` files again. You can add any (config)files you want here!
+As you can see I’ve added the `.zshrc`, `.bashrc` and `.vimrc` files again. You can add any (config)files you want here!
 
 #### To add the job to cron, type
 ```
