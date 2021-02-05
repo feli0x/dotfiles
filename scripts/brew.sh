@@ -5,7 +5,7 @@ Color_off='\033[0m'
 Color='\033[1;35m'
 
 # }}}
-PACKAGES='npm neofetch onefetch gatsby-cli sass yarn tree htop'
+PACKAGES='npm neofetch yarn tree htop'
 CASKS='iterm2 visual-studio-code docker google-chrome brave-browser firefox-developer-edition browserosaurus vlc github raspberry-pi-imager kap'
 
 # }}}
