@@ -1,13 +1,30 @@
 #!/bin/sh
-
+Color_off='\033[0m'
+Color1='\033[0;35m'
+Color2='\033[1;36m'
+# }}}
+fancyprint () {
+    printf '%b\n' "$1$2$Color_off" >&2
+}
+# }}}
+clear
+echo ''
+fancyprint ${Color1} '██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
+fancyprint ${Color1} '██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
+fancyprint ${Color1} '██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
+fancyprint ${Color1} '██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
+fancyprint ${Color1} '██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
+fancyprint ${Color1} '╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
+fancyprint ${Color2} '						  https://github.com/tgifelix/dotfiles'
+echo ''
 timestamp() {
   date +"%d-%m-%Y @ %T"
 }
 
-cp $HOME/.zshrc $HOME/dotfiles/zsh/.zshrc
-cp $HOME/.bashrc $HOME/dotfiles/bash/.bashrc
-cp $HOME/.vimrc $HOME/dotfiles/vim/.vimrc
-cp $HOME/.aliases $HOME/dotfiles/aliases/.aliases
+cp $HOME/.zshrc $HOME/dotfiles/.zshrc
+cp $HOME/.bashrc $HOME/dotfiles/.bashrc
+cp $HOME/.vimrc $HOME/dotfiles/.vimrc
+cp $HOME/.aliases $HOME/dotfiles/.aliases
 
 if [[ `git status --porcelain` ]]; then
 	git pull origin master
