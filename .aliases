@@ -18,7 +18,7 @@ alias vimconfig="vim ${HOME}/.vimrc"
 alias config="vim ${HOME}/.zshrc"
 alias nuke="rm -rf"
 alias wd="cd ${HOME}/Documents/webdev"
-alias dotfiles="bash ${HOME}/dotfiles/scripts/dotfiles.sh"
+alias dotfiles="bash ${HOME}/dotfiles/backup.sh"
 alias em="emacs"
 
 ### MACOS
