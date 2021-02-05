@@ -10,7 +10,7 @@
 alias configalias="vim ${HOME}/.aliases"
 alias configzsh="vim ${HOME}/.zshrc"
 alias configbash="vim ${HOME}/.bashrc"
-alias confvim="vim ${HOME}/.vimrc"
+alias configvim="vim ${HOME}/.vimrc"
 alias pi="ssh w@rpi.local"
 alias c="clear"
 alias x="exit"
