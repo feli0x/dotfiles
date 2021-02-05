@@ -12,7 +12,7 @@ CASKS='iterm2 visual-studio-code docker google-chrome brave-browser  browserosau
 fancyprint () {
     printf '%b\n' "$1$2$Color_off" >&2
 }
-
+q
 # }}}
 PS3='➡ '
 options=("install homebrew" "install packages" "install casks" "exit")
