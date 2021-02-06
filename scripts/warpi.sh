@@ -20,7 +20,7 @@ fancyprint ${Color1} '╚███╔███╔╝██║  ██║██�
 fancyprint ${Color1} ' ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝'
 fancyprint ${Color2} '                      v1.3 by @_tgifelix'
 echo ''
-echo ''
+sleep 3
 
 # update
 echo ''
@@ -30,10 +30,10 @@ sudo apt update
 # install
 echo ''
 fancyprint ${Color2} ' >> installing tools'
-sudo apt install git curl tmux vim npm mosh golang neofetch htop nmap wifite kismet -y
+sudo apt install git curl tmux vim npm mosh golang neofetch htop nmap wifite kismet libpcap -y
 
 # complete
-echo ''
+clear
 echo ''
 fancyprint ${Color1} '██╗  ██╗ █████╗  ██████╗██╗  ██╗████████╗██╗  ██╗███████╗'
 fancyprint ${Color1} '██║  ██║██╔══██╗██╔════╝██║ ██╔╝╚══██╔══╝██║  ██║██╔════╝'
@@ -48,5 +48,6 @@ fancyprint ${Color1} '   ██╔═══╝ ██║     ██╔══█�
 fancyprint ${Color1} '   ██║     ███████╗██║  ██║██║ ╚████║███████╗   ██║      '
 fancyprint ${Color1} '   ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝      '
 echo ''
+fancyprint ${Color2} ' >> Done! 🤘'
 echo ''
 exit 0
