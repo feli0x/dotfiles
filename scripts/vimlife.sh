@@ -15,7 +15,13 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # VIMRC
 fancyprint ${color} ' >> COPYING .VIMRC'
-cp $HOME/dotfiles/.vimrc $HOME/.vimrc
+if [ -f ".vimrc" ]; then
+    mv $HOME/.vimrc $HOME/.vimrc_backup
+    cp $HOME/dotfiles/.vimrc $HOME/.vimrc
+else 
+    cp $HOME/dotfiles/.vimrc $HOME/.vimrc
+
+fi
 
 # PLUGINS (defined in .vimrc)
 fancyprint ${color} ' >> INSTALLING PLUGINS'

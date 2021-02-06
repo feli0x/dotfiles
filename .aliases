@@ -47,7 +47,7 @@ alias docrun="docker run -d -t"
 alias docexe="docker exec -i -t"
 alias parsec="docker run --rm -ti --network host -v $PWD/work:/work parrotsec/security"
 alias docset="docker run --rm -ti --network host -v $PWD/set:/root/.set parrotsec/tools-set"
-alias doccap="docker run --rm -it --privileged --net=host bettercap/bettercap"
+alias bettercap="docker run --rm -it --privileged --net=host bettercap/bettercap"
 alias spacevim="docker run -it --rm spacevim/spacevim nvim"
 
 ### BUILD&DEPLOY
