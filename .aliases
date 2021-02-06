@@ -7,15 +7,14 @@
 # fi
 
 ### GENERAL
-alias configalias="vim ${HOME}/.aliases"
-alias configzsh="vim ${HOME}/.zshrc"
-alias configbash="vim ${HOME}/.bashrc"
-alias configvim="vim ${HOME}/.vimrc"
+alias config="vim ${HOME}/.zshrc"
+alias aliases="vim ${HOME}/.aliases"
+alias zshrc="vim ${HOME}/.zshrc"
+alias bashrc="vim ${HOME}/.bashrc"
+alias vimrc="vim ${HOME}/.vimrc"
 alias pi="ssh w@rpi.local"
 alias c="clear"
 alias x="exit"
-alias vimconfig="vim ${HOME}/.vimrc"
-alias config="vim ${HOME}/.zshrc"
 alias nuke="rm -rf"
 alias wd="cd ${HOME}/Documents/webdev"
 alias dotfiles="bash ${HOME}/dotfiles/backup.sh"
