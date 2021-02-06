@@ -30,7 +30,7 @@ sudo apt update
 # install
 echo ''
 fancyprint ${Color2} ' >> installing tools'
-sudo apt install git curl tmux vim npm mosh golang neofetch htop nmap wifite kismet libpcap -y
+sudo apt install git curl tmux vim npm mosh golang neofetch htop nmap wifite kismet -y
 
 # complete
 clear
