@@ -1,22 +1,22 @@
 #!/bin/sh
-Color_off='\033[0m'
-Color1='\033[0;35m'
-Color2='\033[1;36m'
+color_off='\033[0m'
+color1='\033[0;35m'
+color2='\033[1;36m'
 dir=$PWD
 # }}}
 fancyprint () {
-    printf '%b\n' "$1$2$Color_off" >&2
+    printf '%b\n' "$1$2$color_off" >&2
 }
 # }}}
 clear
 echo ''
-fancyprint ${Color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
-fancyprint ${Color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
-fancyprint ${Color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
-fancyprint ${Color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
-fancyprint ${Color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
-fancyprint ${Color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${Color2} ' https://github.com/tgifelix/dotfiles'
+fancyprint ${color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
+fancyprint ${color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
+fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
+fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
+fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
+fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
+fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 timestamp() {
   date +"%d-%m-%Y @ %T"
