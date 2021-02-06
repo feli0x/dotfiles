@@ -27,6 +27,7 @@ filetype plugin indent on
 
 colorscheme dracula
 
+"// SET
 set number
 set noerrorbells
 set smarttab
@@ -39,6 +40,7 @@ syntax enable
 
 set rtp+=/usr/local/opt/fzf
 
+"// MAPPING
 map <C-c> :q<CR>
 map <space>e :CocCommand explorer<CR>
 
