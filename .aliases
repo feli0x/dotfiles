@@ -57,6 +57,7 @@ alias n="netlify"
 alias yd="yarn dev"
 alias yb="yarn build"
 alias yi="yarn install"
+alias svelte="npx degit sveltejs/template"
 
 ### TMUX
 alias t='tmux'
