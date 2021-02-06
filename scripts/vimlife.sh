@@ -15,7 +15,7 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 # VIMRC
 fancyprint ${color} ' >> COPYING .VIMRC'
-if [ -f ".vimrc" ]; then
+if [ -f "$HOME/.vimrc" ]; then
     mv $HOME/.vimrc $HOME/.vimrc_backup
     cp $HOME/dotfiles/.vimrc $HOME/.vimrc
 else 
