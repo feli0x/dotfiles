@@ -36,7 +36,7 @@ do
             brew install --cask ${CASKS}
             clear
             fancyprint ${Color} "Installed ${PACKAGES}"
-         continue
+	    continue
             ;;
         "exit")
             echo ""
