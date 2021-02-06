@@ -5,7 +5,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'junegunn/fzf'
 Plugin 'bling/vim-airline'
@@ -26,10 +25,9 @@ colorscheme dracula
 set number
 set noerrorbells
 set smarttab
-set ai
+set ai 
 set si
 set wrap
-
 
 syntax enable
 
