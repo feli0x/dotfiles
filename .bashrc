@@ -29,6 +29,6 @@ plugins=(
 source $OSH/oh-my-bash.sh
 
 # Aliases
-if [ -f ~/.bash_aliases ]; then
-. ~/.bash_aliases
+if [ -f ~/.aliases ]; then
+. ~/.aliases
 fi
