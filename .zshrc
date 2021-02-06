@@ -9,6 +9,9 @@ ZSH_THEME="agnoster"
 # Auto Update
 DISABLE_UPDATE_PROMPT="true"
 
+# Auto Correct
+ENABLE_CORRECTION="true"
+
 # Waiting Dots.
 # COMPLETION_WAITING_DOTS="true"
 
