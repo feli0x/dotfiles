@@ -20,6 +20,7 @@ alias nuke="rm -rf"
 alias wd="cd ${HOME}/Documents/webdev"
 alias dotfiles="bash ${HOME}/dotfiles/backup.sh"
 alias em="emacs"
+alias vim="nvim"
 
 ### MACOS
 alias remoteon="sudo systemsetup -setremotelogin on"
