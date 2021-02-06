@@ -10,10 +10,10 @@ ZSH_THEME="agnoster"
 DISABLE_UPDATE_PROMPT="true"
 
 # Waiting Dots.
-COMPLETION_WAITING_DOTS="true"
+# COMPLETION_WAITING_DOTS="true"
 
 # Plugins
-plugins=(brew node osx sudo docker)
+plugins=(zsh-autosuggestions docker osx sudo vundle)
 
 source $ZSH/oh-my-zsh.sh
 

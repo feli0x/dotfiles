@@ -33,6 +33,7 @@ set smarttab
 set ai 
 set si
 set wrap
+set backspace=indent,eol,start
 
 syntax enable
 
