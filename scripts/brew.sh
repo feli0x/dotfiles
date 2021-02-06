@@ -6,7 +6,7 @@ Color='\033[1;35m'
 
 # }}}
 PACKAGES='npm neofetch yarn tree htop'
-CASKS='iterm2 visual-studio-code docker google-chrome brave-browser  browserosaurus vlc github raspberry-pi-imager kap'
+CASKS='iterm2 visual-studio-code docker google-chrome brave-browser browserosaurus vlc github raspberry-pi-imager kap'
 
 # }}}
 fancyprint () {
