@@ -27,7 +27,7 @@ cp $HOME/.bashrc $HOME/dotfiles/.bashrc
 cp $HOME/.vimrc $HOME/dotfiles/.vimrc
 cp $HOME/.aliases $HOME/dotfiles/.aliases
 
-cd dotfiles
+cd $HOME/dotfiles
 
 if [[ `git status --porcelain` ]]; then
 	git pull origin master
