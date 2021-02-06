@@ -10,6 +10,8 @@ Plugin 'bling/vim-airline'
 Plugin 'mattn/emmet-vim'
 Plugin 'evanleck/vim-svelte'
 Plugin 'dracula/vim', { 'name': 'dracula' }
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+Plugin 'codechips/coc-svelte', {'do': 'npm install'}
 
 call vundle#end()
 filetype plugin indent on
