@@ -37,6 +37,7 @@ alias bubu="brew update && brew upgrade && brew outdated && brew cleanup"
 alias bs="brew search"
 alias bi="brew install"
 alias bci="brew install --cask"
+alias binf="brew info"
 
 ### DOCKER
 alias docps="docker ps"
