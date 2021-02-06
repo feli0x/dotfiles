@@ -1,3 +1,6 @@
+"""""""""""""""""""" 
+" work in progress "
+""""""""""""""""""""
 set nocompatible
 
 filetype off  
@@ -15,6 +18,8 @@ Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'codechips/coc-svelte', {'do': 'npm install'}
 Plugin 'mhinz/vim-startify'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()
 
