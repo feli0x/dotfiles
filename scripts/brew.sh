@@ -5,7 +5,7 @@ Color_off='\033[0m'
 Color='\033[1;35m'
 
 # }}}
-PACKAGES='npm neofetch yarn tree htop'
+PACKAGES='npm neofetch yarn tree htop tldr fzf'
 CASKS='iterm2 visual-studio-code docker google-chrome brave-browser browserosaurus vlc github raspberry-pi-imager kap'
 
 # }}}

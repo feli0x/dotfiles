@@ -20,5 +20,7 @@ set number
 
 syntax enable
 
+set rtp+=/usr/local/opt/fzf
+
 map <C-n> :NERDTreeToggle<CR>
 map <C-c> :q<CR>
