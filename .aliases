@@ -18,6 +18,7 @@ alias c="clear"
 alias x="exit"
 alias nuke="rm -rf"
 alias wd="cd ${HOME}/Documents/webdev"
+alias scs="cd $HOME/Documents/webdev/shortcutspace/2"
 alias dotfiles="bash ${HOME}/dotfiles/backup.sh"
 alias em="emacs"
 alias vim="nvim"
@@ -60,6 +61,7 @@ alias yd="yarn dev"
 alias yb="yarn build"
 alias yi="yarn install"
 alias svelte="npx degit sveltejs/template"
+alias sapper="npx degit "sveltejs/sapper-template#webpack""
 
 ### TMUX
 alias t='tmux'
