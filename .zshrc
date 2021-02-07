@@ -13,7 +13,7 @@ DISABLE_UPDATE_PROMPT="true"
 ENABLE_CORRECTION="true"
 
 # Waiting Dots.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Plugins
 plugins=(zsh-autosuggestions docker osx sudo vundle)
