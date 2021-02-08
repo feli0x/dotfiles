@@ -7,6 +7,11 @@
 # fi
 
 ### GENERAL
+alias l="ls -lAh"
+alias _="sudo"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
 alias config="vim ${HOME}/.zshrc"
 alias aliases="vim ${HOME}/.aliases"
 alias zshrc="vim ${HOME}/.zshrc"
@@ -54,6 +59,7 @@ alias bettercap="docker run --rm -it --privileged --net=host bettercap/bettercap
 alias spacevim="docker run -it --rm spacevim/spacevim nvim"
 
 ### BUILD&DEPLOY
+alias gc="git clone"
 alias trea="tree -a | more"
 alias nd="npm run dev"
 alias nb="npm run build"
