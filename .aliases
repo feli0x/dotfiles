@@ -7,7 +7,7 @@
 # fi
 
 ### GENERAL
-alias l="ls -lAh"
+alias l="ls -lAh --color=auto"
 alias _="sudo"
 alias ..="cd .."
 alias ...="cd ../.."
