@@ -10,10 +10,7 @@
 source ${HOME}/.aliases
 
 # Theme
-#source ${HOME}/.zsh/geometry/geometry.zsh
-fpath+=$HOME/.zsh/typewritten
-autoload -U promptinit; promptinit
-prompt typewritten
+source ${HOME}/.zsh/geometry/geometry.zsh
 
 # Plugins
 source ${HOME}/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
