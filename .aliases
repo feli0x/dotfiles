@@ -7,8 +7,7 @@
 # fi
 
 ### GENERAL
-alias l="ls -lAh"
-alias ls="ls -F --color=always --group-directories-first"
+alias l="ls -lAGh"
 alias _="sudo"
 alias ..="cd .."
 alias ...="cd ../.."
