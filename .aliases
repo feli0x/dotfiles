@@ -7,7 +7,8 @@
 # fi
 
 ### GENERAL
-alias l="ls -lAh --color=auto"
+alias l="ls -lAh"
+alias ls="ls -F --color=always --group-directories-first"
 alias _="sudo"
 alias ..="cd .."
 alias ...="cd ../.."
@@ -28,6 +29,16 @@ alias tgif="cd $HOME/Documents/webdev/tgifelix"
 alias dotfiles="bash ${HOME}/dotfiles/backup.sh"
 alias em="emacs"
 alias vim="nvim"
+
+### GIT
+alias gs='git status'
+alias gc='git commit -m'
+alias gca='git commit -am'
+alias ga='git add'
+alias gp='git push'
+alias gaa='git add .'
+alias ghg="gh gist"
+alias ghrc="gh repo clone"
 
 ### MACOS
 alias remoteon="sudo systemsetup -setremotelogin on"
@@ -71,7 +82,7 @@ alias svelte="npx degit sveltejs/template"
 alias sapper="npx degit "sveltejs/sapper-template#webpack""
 
 ### TMUX
-alias t='tmux'
+alias t='tmux -u'
 alias tls='tmux ls'
 alias t0='tmux attach -t 0'
 alias t1='tmux attach -t 1'
