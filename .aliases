@@ -68,8 +68,6 @@ alias docset="docker run --rm -ti --network host -v $PWD/set:/root/.set parrotse
 alias bettercap="docker run --rm -it --privileged --net=host bettercap/bettercap"
 alias spacevim="docker run -it --rm spacevim/spacevim nvim"
 
-### BUILD&DEPLOY
-alias gc="git clone"
 alias trea="tree -a | more"
 alias nd="npm run dev"
 alias nb="npm run build"
