@@ -20,6 +20,7 @@ fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 # }}}
 fancyprint ${color2} ' >> Cloning Plugins <<'
+echo ''
 git clone https://github.com/geometry-zsh/geometry $HOME/.zsh/geometry
 git clone https://github.com/marlonrichert/zsh-autocomplete.git $HOME/.zsh/zsh-autocomplete
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.zsh/zsh-syntax-highlighting
@@ -36,10 +37,12 @@ cp $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 1
 clear
 # }}}
+echo ''
 fancyprint ${color2} ' >> DONE! <<'
 sleep 1
 clear
 # }}}
+echo ''
 fancyprint ${color2} ' >> Reloading ZShell... <<'
 sleep 1
 zsh
