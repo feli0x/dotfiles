@@ -7,27 +7,29 @@
 # fi
 
 ### GENERAL
-alias l="ls -lAGh"
-alias _="sudo"
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias config="vim ${HOME}/.zshrc"
-alias aliases="vim ${HOME}/.aliases"
-alias zshrc="vim ${HOME}/.zshrc"
-alias bashrc="vim ${HOME}/.bashrc"
-alias vimrc="vim ${HOME}/.vimrc"
-alias reload="clear && zsh"
-alias pi="ssh w@rpi.local"
-alias c="clear"
-alias x="exit"
-alias nuke="rm -rf"
-alias wd="cd ${HOME}/Documents/webdev"
-alias scs="cd $HOME/Documents/webdev/shortcutspace/2"
-alias tgif="cd $HOME/Documents/webdev/tgifelix"
-alias dotfiles="bash ${HOME}/dotfiles/backup.sh"
-alias em="emacs"
-alias vim="nvim"
+alias l='ls -lhAG'
+alias ls='ls -AG'
+alias tram='tree -a | more'
+alias _='sudo'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias config='vim ${HOME}/.zshrc'
+alias aliases='vim ${HOME}/.aliases'
+alias zshrc='vim ${HOME}/.zshrc'
+alias bashrc='vim ${HOME}/.bashrc'
+alias vimrc='vim ${HOME}/.vimrc'
+alias reload='clear && zsh'
+alias pi='ssh w@rpi.local'
+alias c='clear'
+alias x='exit'
+alias nuke='rm -rf'
+alias wd='cd ${HOME}/Documents/webdev'
+alias scs='cd $HOME/Documents/webdev/shortcutspace'
+alias tgif='cd $HOME/Documents/webdev/tgifelix'
+alias dotfiles='bash ${HOME}/dotfiles/backup.sh'
+alias em='emacs'
+alias vim='nvim'
 
 ### GIT
 alias gs='git status'
@@ -36,12 +38,12 @@ alias gca='git commit -am'
 alias ga='git add'
 alias gp='git push'
 alias gaa='git add .'
-alias ghg="gh gist"
-alias ghrc="gh repo clone"
+alias ghg='gh gist'
+alias ghrc='gh repo clone'
 
 ### MACOS
-alias remoteon="sudo systemsetup -setremotelogin on"
-alias remoteoff="sudo systemsetup -setremotelogin off"
+alias remoteon='sudo systemsetup -setremotelogin on'
+alias remoteoff='sudo systemsetup -setremotelogin off'
 
 ### LINUX
 alias upup='sudo apt update && sudo apt upgrade -y'
@@ -51,32 +53,32 @@ alias w1up='sudo airmon-ng start wlan1'
 alias w1down='sudo airmon-ng stop wlan1mon'
 
 ### BREW
-alias bubu="brew update && brew upgrade && brew outdated && brew cleanup"
-alias bs="brew search"
-alias bi="brew install"
-alias bci="brew install --cask"
-alias binf="brew info"
+alias bubu='brew update && brew upgrade && brew outdated && brew cleanup'
+alias bs='brew search'
+alias bi='brew install'
+alias bci='brew install --cask'
+alias binf='brew info'
 
 ### DOCKER
-alias docps="docker ps"
-alias docimg="docker images"
-alias docalias="alias | grep 'docker'"
-alias docrun="docker run -d -t"
-alias docexe="docker exec -i -t"
-alias parsec="docker run --rm -ti --network host -v $PWD/work:/work parrotsec/security"
-alias docset="docker run --rm -ti --network host -v $PWD/set:/root/.set parrotsec/tools-set"
-alias bettercap="docker run --rm -it --privileged --net=host bettercap/bettercap"
-alias spacevim="docker run -it --rm spacevim/spacevim nvim"
+alias docps='docker ps'
+alias docimg='docker images'
+alias docalias='alias | grep "docker"'
+alias docrun='docker run -d -t'
+alias docexe='docker exec -i -t'
+alias parsec='docker run --rm -ti --network host -v $PWD/work:/work parrotsec/security'
+alias docset='docker run --rm -ti --network host -v $PWD/set:/root/.set parrotsec/tools-set'
+alias bettercap='docker run --rm -it --privileged --net=host bettercap/bettercap'
+alias spacevim='docker run -it --rm spacevim/spacevim nvim'
 
-alias trea="tree -a | more"
-alias nd="npm run dev"
-alias nb="npm run build"
-alias n="netlify"
-alias yd="yarn dev"
-alias yb="yarn build"
-alias yi="yarn install"
-alias svelte="npx degit sveltejs/template"
-alias sapper="npx degit "sveltejs/sapper-template#webpack""
+### BUILD AND DEPLOY
+alias nd='npm run dev'
+alias nb='npm run build'
+alias n='netlify'
+alias yd='yarn dev'
+alias yb='yarn build'
+alias yi='yarn install'
+alias svelte='npx degit sveltejs/template'
+alias sapper='npx degit "sveltejs/sapper-template#webpack"'
 
 ### TMUX
 alias t='tmux -u'
@@ -100,7 +102,7 @@ alias sainf='sudo apt info'
 
 ### CTF
 alias htp='sudo airmon-ng start wlan1 && kismet -c wlan1mon'
-alias ftn='sudo airmon-ng start wlan1 && sudo wifite --clients-only --dict passlist.txt'
+alias ftn='sudo airmon-ng start wlan1 && sudo wifite --clients-only --dict rockyou.txt'
 alias aw1='sudo airmon-ng start wlan1 && sudo airodump-ng wlan1mon'
 alias bw1='sudo bettercap --iface wlan1'
 alias kw1='kismet -c wlan1mon'
