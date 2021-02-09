@@ -28,5 +28,6 @@ cp .macos $HOME/.macos
 cp .zshrc $HOME/.zshrc
 # }}}
 cd $dir
-fancyprint ${color2} ' Backup complete! 🤙'
+echo ''
+fancyprint ${color2} ' >> Backup complete! 🤙'
 exit 0
