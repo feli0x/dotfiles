@@ -36,9 +36,9 @@ cp $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 1
 clear
 # }}}
-clear
-fancyprint ${color2} ' >> DONE! >>'
+fancyprint ${color2} ' >> DONE! <<'
 sleep 1
+clear
 # }}}
 fancyprint ${color2} ' >> Reloading ZShell... <<'
 sleep 1
