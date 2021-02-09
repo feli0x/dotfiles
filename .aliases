@@ -30,6 +30,7 @@ alias tgif='cd $HOME/Documents/webdev/tgifelix'
 alias dotfiles='cd $HOME/dotfiles'
 alias dotbackup='bash $HOME/dotfiles/scripts/backup.sh'
 alias dotupdate='bash $HOME/dotfiles/scripts/update.sh'
+alias dotnuke='bash $HOME/dotfiles/scripts/uninstall.sh'
 alias em='emacs'
 alias vim='nvim'
 
