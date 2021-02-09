@@ -5,3 +5,24 @@ prompt pure
 
 ### Plugins
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+### Aliases
+alias sas='sudo apt search'
+alias sai='sudo apt install'
+alias sainf='sudo apt info'
+alias upup='sudo apt update && sudo apt upgrade -y'
+alias reboot='sudo reboot'
+alias halt='sudo halt'
+alias w1up='sudo airmon-ng start wlan1'
+alias w1down='sudo airmon-ng stop wlan1mon'
+alias htp='sudo airmon-ng start wlan1 && kismet -c wlan1mon'
+alias ftn='sudo airmon-ng start wlan1 && sudo wifite --clients-only --dict rockyou.txt'
+alias aw1='sudo airmon-ng start wlan1 && sudo airodump-ng wlan1mon'
+alias bw1='sudo bettercap --iface wlan1'
+alias kw1='kismet -c wlan1mon'
+alias rockyou='sudo aircrack-ng wpa.cap -w rockyou.txt'
+alias ohfuck='sudo airmon-ng start wlan1 && sudo besside-ng wlan1mon'
+alias vncipad='vncserver -geometry 2388x1668'
+alias vncmb='vncserver -geometry 2800x1600'
+alias vnckill1='vncserver -kill :1'
+alias vnckill2='vncserver -kill :2'
