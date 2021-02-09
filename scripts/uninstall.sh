@@ -20,6 +20,6 @@ fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝
 fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 # }}}
-fancyprint ${color2} ' >> Nuking: $nuke <<'
-rm -rf $nuke
+fancyprint ${color2} ' >> Nuking: ${nuke} <<'
+rm -rf ${nuke}
 fancyprint ${color2} 'Reinstall with: git clone https://github.com/tgifelix/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/bootstrap.sh'
