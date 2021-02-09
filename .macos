@@ -1,5 +1,7 @@
 ### Theme; geometry
 source $HOME/.zsh/geometry/geometry.zsh
+# GEOMETRY_STATUS_SYMBOL="▲"
+GEOMETRY_STATUS_SYMBOL=""
 
 ### Theme;pure
 # fpath+=$HOME/.zsh/pure
