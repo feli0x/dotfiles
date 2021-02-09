@@ -1,9 +1,5 @@
 ### Theme; geometry
 source $HOME/.zsh/geometry/geometry.zsh
-### Theme; pure
-# fpath+=$HOME/.zsh/pure
-# autoload -U promptinit; promptinit
-# prompt pure
 
 ### Plugins
 source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
