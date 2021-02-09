@@ -37,11 +37,12 @@ fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝
 fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 fancyprint ${color2} ' >> Copying DotFiles <<'
+echo ''
 cp -v $HOME/dotfiles/.aliases $HOME/.aliases
 cp -v $HOME/dotfiles/.debian $HOME/.debian
 cp -v $HOME/dotfiles/.macos $HOME/.macos
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
-sleep 1
+sleep 3
 clear
 # }}}
 echo ''
@@ -54,7 +55,7 @@ fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝
 fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 fancyprint ${color2} ' >> DONE! <<'
-sleep 1
+sleep 2
 clear
 # }}}
 echo ''
@@ -67,5 +68,5 @@ fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝
 fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 fancyprint ${color2} ' >> Reloading ZShell... <<'
-sleep 1
+sleep 2
 zsh
