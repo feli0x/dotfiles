@@ -36,6 +36,7 @@ set si
 set wrap
 set backspace=indent,eol,start
 
+
 syntax enable
 
 set rtp+=/usr/local/opt/fzf
