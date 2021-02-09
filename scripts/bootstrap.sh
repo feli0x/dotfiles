@@ -17,6 +17,6 @@ cp $HOME/dotfiles/.zshrc $HOME/.zshrc
 
 clear
 
-echo 'Done!'
-
-exit 0
+echo 'Done! Reloading ZShell...'
+sleep 3
+zsh
