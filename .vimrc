@@ -38,8 +38,6 @@ set backspace=indent,eol,start
 
 syntax enable
 
-let g:coc_disable_startup_warning = 1
-
 set rtp+=/usr/local/opt/fzf
 
 "// MAPPING

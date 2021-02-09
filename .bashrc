@@ -26,6 +26,7 @@ plugins=(
   npm
 )
 
+# OMB Source
 source $OSH/oh-my-bash.sh
 
 # Aliases
