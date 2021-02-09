@@ -25,6 +25,7 @@ timestamp() {
 }
 # }}}
 cp $HOME/.zshrc $HOME/dotfiles/.zshrc
+cp $HOME/.bashrc $HOME/dotfiles/.bashrc
 cp $HOME/.macos $HOME/dotfiles/.macos
 cp $HOME/.debian $HOME/dotfiles/.debian
 cp $HOME/.vimrc $HOME/dotfiles/.vimrc
