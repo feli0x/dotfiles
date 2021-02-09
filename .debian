@@ -10,6 +10,8 @@
 fpath+=$HOME/.zsh/typewritten
 autoload -U promptinit; promptinit
 prompt typewritten
+export TYPEWRITTEN_PROMPT_LAYOUT="singleline"
+export TYPEWRITTEN_RELATIVE_PATH="adaptive"
 
 ### Plugins
 # source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
