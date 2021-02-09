@@ -7,15 +7,18 @@
 #    ╚═╝    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
 # WORK IN PROGRESS - https://www.tgifelix.com/dotfiles/zshrc
 
+# OS Config
+case `uname` in
+  Darwin)
+    source $HOME/.macos
+  ;;
+  Linux)
+    source $HOME/.debian
+  ;;
+esac
+
 # Aliases
 source $HOME/.aliases
-
-# Theme
-source $HOME/.zsh/geometry/geometry.zsh
-
-# Plugins
-source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # History
 HISTFILE=$HOME/.zsh_history
