@@ -4,7 +4,7 @@ This article was originally posted on [my website](https://www.tgifelix.com/).
 ```
 git clone https://github.com/tgifelix/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/bootstrap.sh
 ```
-
+---
 I came across a `dotfiles` repository on GitHub the other day and it instantly made me realize I've been backing up mine wrong! Let’s set up our own GitHub repo and start doing it the right way, today.
 
 > Dotfiles are text-based configuration files for Unix tools. By backing them up to GitHub we make sure all our favorite configurations, hacks, and tweaks don’t get lost in case of a system crash. 
