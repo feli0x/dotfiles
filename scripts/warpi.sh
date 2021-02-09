@@ -7,7 +7,7 @@ Color_off='\033[0m'
 Color1='\033[0;35m'
 Color2='\033[1;36m'
 
-tools='git curl tmux vim npm mosh golang neofetch htop nmap wifite kismet'
+tools='zsh git npm curl tmux neovim mosh golang neofetch htop nmap wifite kismet'
 
 fancyprint () {
     printf '%b\n' "$1$2$Color_off" >&2
