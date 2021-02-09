@@ -55,7 +55,7 @@ fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝
 fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
 echo ''
 fancyprint ${color2} ' >> DONE! <<'
-sleep 2
+sleep 1
 clear
 # }}}
 echo ''
