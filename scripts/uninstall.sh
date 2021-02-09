@@ -22,3 +22,5 @@ echo ''
 fancyprint ${color2} ' >> Nuking: $HOME/dotfiles $HOME/.zsh $HOME/.aliases $HOME/.debian $HOME/.macos $HOME/.zshrc <<'
 rm -rf $HOME/dotfiles $HOME/.zsh $HOME/.aliases $HOME/.debian $HOME/.macos $HOME/.zshrc
 fancyprint ${color2} 'Reinstall with: git clone https://github.com/tgifelix/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/bootstrap.sh'
+sleep 3
+zsh
