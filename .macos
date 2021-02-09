@@ -1,4 +1,4 @@
-# Theme
+# Theme; geometry
 source $HOME/.zsh/geometry/geometry.zsh
 
 # Plugins
