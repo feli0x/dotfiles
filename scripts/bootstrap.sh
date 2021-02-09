@@ -33,9 +33,13 @@ cp $HOME/dotfiles/.aliases $HOME/.aliases
 cp $HOME/dotfiles/.debian $HOME/.debian
 cp $HOME/dotfiles/.macos $HOME/.macos
 cp $HOME/dotfiles/.zshrc $HOME/.zshrc
-# }}}
+sleep 1
 clear
 # }}}
-fancyprint ${color2} ' >> Done! Reloading ZShell... <<'
-sleep 3
+clear
+fancyprint ${color2} ' >> DONE! >>'
+sleep 1
+# }}}
+fancyprint ${color2} ' >> Reloading ZShell... <<'
+sleep 1
 zsh
