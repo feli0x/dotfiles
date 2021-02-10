@@ -1,5 +1,7 @@
 ### Theme; geometry
 # source $HOME/.zsh/geometry/geometry.zsh
+# GEOMETRY_STATUS_SYMBOL=""
+# GEOMETRY_STATUS_SYMBOL_ERROR=""
 
 ### Theme;pure
 # fpath+=$HOME/.zsh/pure
@@ -10,9 +12,10 @@
 fpath+=$HOME/.zsh/typewritten
 autoload -U promptinit; promptinit
 prompt typewritten
-export TYPEWRITTEN_PROMPT_LAYOUT="singleline"
+export TYPEWRITTEN_PROMT_LAYOUR="singleline"
 export TYPEWRITTEN_RELATIVE_PATH="adaptive"
+export TYPEWRITTEN_SYMBOL="π >"
 
 ### Plugins
-# source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
