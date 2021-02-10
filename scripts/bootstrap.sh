@@ -43,6 +43,7 @@ cp -v $HOME/dotfiles/.aliases $HOME/.aliases
 sleep 1
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 1
+fancyprint ${color2} ' >> DONE!'
 clear
 # }}}
 echo ''
@@ -54,19 +55,5 @@ fancyprint ${color1} ' ██████╔╝╚██████╔╝   █
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
 fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
 echo ''
-fancyprint ${color2} ' >> DONE! <<'
-sleep 1
-clear
-# }}}
-echo ''
-fancyprint ${color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
-fancyprint ${color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
-fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
-fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
-echo ''
-fancyprint ${color2} ' >> Reloading ZShell... <<'
-sleep 2
+fancyprint ${color2} ' >> hAcK tHe PLaNeT ! <<'
 zsh
