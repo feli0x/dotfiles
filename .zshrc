@@ -5,7 +5,7 @@
 #    ██║   ██║   ██║██║██╔══╝  ██╔══╝  ██║     ██║ ██╔██╗ 
 #    ██║   ╚██████╔╝██║██║     ███████╗███████╗██║██╔╝ ██╗
 #    ╚═╝    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
-# WORK IN PROGRESS - https://www.tgifelix.com/dotfiles/zshrc
+#    WORK IN PROGRESS - https://www.tgifelix.com/dotfiles
 
 # Themes
 if [[ -n $SSH_CONNECTION ]]; then
@@ -14,10 +14,12 @@ if [[ -n $SSH_CONNECTION ]]; then
   prompt typewritten
   export TYPEWRITTEN_PROMT_LAYOUR="singleline"
   export TYPEWRITTEN_RELATIVE_PATH="adaptive"
-  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+  source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 else
   source $HOME/.zsh/geometry/geometry.zsh
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+  GEOMETRY_STATUS_SYMBOL=""             # default prompt symbol
+  GEOMETRY_STATUS_SYMBOL_ERROR=""
 fi
 
 # Aliases
@@ -38,4 +40,5 @@ setopt hist_ignore_space
 # Options
 setopt no_beep
 setopt correct
+setopt AUTO_CD
 
