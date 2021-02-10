@@ -16,14 +16,15 @@ fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   �
 fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
 fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
+fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
 echo ''
 fancyprint ${color2} ' >> Cloning Plugins <<'
 echo ''
 git clone https://github.com/geometry-zsh/geometry $HOME/.zsh/geometry
+git clone https://github.com/reobin/typewritten.git $HOME/.zsh/typewritten
 git clone https://github.com/marlonrichert/zsh-autocomplete.git $HOME/.zsh/zsh-autocomplete
+git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.zsh/zsh-syntax-highlighting
-git clone https://github.com/sindresorhus/pure.git $HOME/.zsh/pure
 # }}}
 clear
 # }}}
@@ -34,13 +35,14 @@ fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   �
 fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
 fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
+fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
 echo ''
 fancyprint ${color2} ' >> Copying DotFiles <<'
 echo ''
 cp -v $HOME/dotfiles/.aliases $HOME/.aliases
+sleep 1
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
-sleep 3
+sleep 1
 clear
 # }}}
 echo ''
@@ -50,7 +52,7 @@ fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   �
 fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
 fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
+fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
 echo ''
 fancyprint ${color2} ' >> DONE! <<'
 sleep 1
@@ -63,7 +65,7 @@ fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   �
 fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
 fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
+fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
 echo ''
 fancyprint ${color2} ' >> Reloading ZShell... <<'
 sleep 2
