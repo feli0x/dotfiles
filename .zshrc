@@ -7,6 +7,7 @@
 #    ╚═╝    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
 # WORK IN PROGRESS - https://www.tgifelix.com/dotfiles/zshrc
 
+# Themes
 if [[ -n $SSH_CONNECTION ]]; then
   fpath+=$HOME/.zsh/typewritten
   autoload -U promptinit; promptinit
@@ -19,12 +20,11 @@ else
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
 
-# Common Plugins
-source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
 # Aliases
 source $HOME/.aliases
+
+# Syntax Highlighting
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # History
 HISTFILE=$HOME/.zsh_history
