@@ -37,14 +37,14 @@ fancyprint ${color1} ' ██████╔╝╚██████╔╝   █
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
 fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
 echo ''
-fancyprint ${color2} ' >> Copying DotFiles <<'
+fancyprint ${color2} ' >> Copying DotFiles'
 echo ''
 cp -v $HOME/dotfiles/.aliases $HOME/.aliases
 sleep 1
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 1
 fancyprint ${color2} ' >> DONE!'
-sleep 1
+sleep 2
 clear
 # }}}
 echo ''
