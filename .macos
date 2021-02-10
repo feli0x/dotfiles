@@ -16,6 +16,6 @@ export TYPEWRITTEN_PROMT_LAYOUR="singleline"
 export TYPEWRITTEN_RELATIVE_PATH="adaptive"
 export TYPEWRITTEN_SYMBOL=" ❯"
 
-## Plugins
+### Plugins
 source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
