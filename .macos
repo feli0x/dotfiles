@@ -17,5 +17,6 @@ source $HOME/.zsh/geometry/geometry.zsh
 # export TYPEWRITTEN_SYMBOL=" ❯"
 
 ### Plugins
-source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
