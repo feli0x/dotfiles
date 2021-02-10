@@ -32,6 +32,7 @@ alias dotupdate='bash $HOME/dotfiles/scripts/update.sh'
 alias dotnuke='bash $HOME/dotfiles/scripts/uninstall.sh'
 alias em='emacs'
 alias vim='nvim'
+alias rec='asciinema rec'
 
 ### GIT
 alias gs='git status'
