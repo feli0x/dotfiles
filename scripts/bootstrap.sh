@@ -39,8 +39,6 @@ echo ''
 fancyprint ${color2} ' >> Copying DotFiles <<'
 echo ''
 cp -v $HOME/dotfiles/.aliases $HOME/.aliases
-cp -v $HOME/dotfiles/.debian $HOME/.debian
-cp -v $HOME/dotfiles/.macos $HOME/.macos
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 3
 clear

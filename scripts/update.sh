@@ -22,8 +22,6 @@ cd $HOME/dotfiles
 # }}}
 git pull
 cp .aliases $HOME/.aliases
-cp .debian $HOME/.debian
-cp .macos $HOME/.macos
 cp .zshrc $HOME/.zshrc
 # }}}
 cd $dir

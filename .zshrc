@@ -7,15 +7,21 @@
 #    ╚═╝    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
 # WORK IN PROGRESS - https://www.tgifelix.com/dotfiles/zshrc
 
-# OS Config
-case `uname` in
-  Darwin)
-    source $HOME/.macos
-  ;;
-  Linux)
-    source $HOME/.debian
-  ;;
-esac
+if [[ -n $SSH_CONNECTION ]]; then
+  fpath+=$HOME/.zsh/typewritten
+  autoload -U promptinit; promptinit
+  prompt typewritten
+  export TYPEWRITTEN_PROMT_LAYOUR="singleline"
+  export TYPEWRITTEN_RELATIVE_PATH="adaptive"
+  source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+else
+  source $HOME/.zsh/geometry/geometry.zsh
+  source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+fi
+
+# Common Plugins
+source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 # Aliases
 source $HOME/.aliases
@@ -32,3 +38,4 @@ setopt hist_ignore_space
 # Options
 setopt no_beep
 setopt correct
+
