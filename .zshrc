@@ -18,12 +18,6 @@ else
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
 
-# Theme Settings
-export TYPEWRITTEN_PROMPT_LAYOUT="singleline"
-export TYPEWRITTEN_RELATIVE_PATH="adaptive"
-export GEOMETRY_STATUS_SYMBOL=""
-export GEOMETRY_STATUS_SYMBOL_ERROR=""
-
 # Aliases
 source $HOME/.aliases
 
