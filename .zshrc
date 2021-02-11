@@ -7,7 +7,7 @@
 #    ╚═╝    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
 #    WORK IN PROGRESS - https://www.tgifelix.com/dotfiles
 
-# Themes
+# Themes/Plugins
 if [[ -n $SSH_CONNECTION ]]; then
   fpath+=$HOME/.zsh/typewritten
   autoload -U promptinit; promptinit
@@ -17,6 +17,12 @@ else
   source $HOME/.zsh/geometry/geometry.zsh
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
+
+# Theme Settings
+export TYPEWRITTEN_PROMPT_LAYOUT="singleline"
+export TYPEWRITTEN_RELATIVE_PATH="adaptive"
+export GEOMETRY_STATUS_SYMBOL=""
+export GEOMETRY_STATUS_SYMBOL_ERROR=""
 
 # Aliases
 source $HOME/.aliases

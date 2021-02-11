@@ -85,6 +85,8 @@ alias sapper='npx degit "sveltejs/sapper-template#webpack"'
 
 ### TMUX
 alias t='tmux -u'
+alias tc='tmux -CC'
+alias tca='tmux -CC attach'
 alias tls='tmux ls'
 alias t0='tmux attach -t 0'
 alias t1='tmux attach -t 1'
