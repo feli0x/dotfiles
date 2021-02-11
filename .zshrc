@@ -12,14 +12,10 @@ if [[ -n $SSH_CONNECTION ]]; then
   fpath+=$HOME/.zsh/typewritten
   autoload -U promptinit; promptinit
   prompt typewritten
-  export TYPEWRITTEN_PROMT_LAYOUR="singleline"
-  export TYPEWRITTEN_RELATIVE_PATH="adaptive"
   source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 else
   source $HOME/.zsh/geometry/geometry.zsh
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-  GEOMETRY_STATUS_SYMBOL=""
-  GEOMETRY_STATUS_SYMBOL_ERROR=""
 fi
 
 # Aliases
