@@ -18,7 +18,7 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   source $HOME/.zsh/geometry/geometry.zsh
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-  GEOMETRY_STATUS_SYMBOL=""             # default prompt symbol
+  GEOMETRY_STATUS_SYMBOL=""
   GEOMETRY_STATUS_SYMBOL_ERROR=""
 fi
 
