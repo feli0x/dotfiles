@@ -38,12 +38,11 @@ setopt no_beep
 setopt correct
 setopt AUTO_CD
 
-
-# ls
+# List
   case `uname` in
     Darwin )
       (($+commands[exa])) && alias \
-      ls='exa -ab' \
+      ls='exa -a' \
       l='exa -laB'
     ;;
     Linux)
