@@ -38,3 +38,17 @@ setopt no_beep
 setopt correct
 setopt AUTO_CD
 
+
+# ls
+  case `uname` in
+    Darwin )
+      (($+commands[exa])) && alias \
+      ls='exa -ab' \
+      l='exa -laB'
+    ;;
+    Linux)
+      alias l='ls -lGh'
+      alias ls='ls -AG'
+    ;;
+  esac
+

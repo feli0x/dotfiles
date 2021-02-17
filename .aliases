@@ -1,6 +1,5 @@
 ### GENERAL
-alias l='ls -lGh'
-alias ls='ls -AG'
+
 alias tram='tree -a | more'
 alias _='sudo'
 alias ..='cd ..'
