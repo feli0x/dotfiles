@@ -5,7 +5,7 @@ Color_off='\033[0m'
 Color='\033[1;35m'
 
 # }}}
-PACKAGES='npm neofetch yarn rust golang tree htop tldr fzf gh'
+PACKAGES='npm neofetch yarn wget exa rust golang tree htop tldr fzf gh'
 CASKS='iterm2 visual-studio-code docker google-chrome brave-browser browserosaurus vlc github raspberry-pi-imager kap'
 
 # }}}
