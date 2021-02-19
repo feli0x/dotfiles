@@ -1,13 +1,13 @@
-#
-# ████████╗ ██████╗ ██╗███████╗███████╗██╗     ██╗██╗  ██╗
-# ╚══██╔══╝██╔════╝ ██║██╔════╝██╔════╝██║     ██║╚██╗██╔╝
-#    ██║   ██║  ███╗██║█████╗  █████╗  ██║     ██║ ╚███╔╝ 
-#    ██║   ██║   ██║██║██╔══╝  ██╔══╝  ██║     ██║ ██╔██╗ 
-#    ██║   ╚██████╔╝██║██║     ███████╗███████╗██║██╔╝ ██╗
-#    ╚═╝    ╚═════╝ ╚═╝╚═╝     ╚══════╝╚══════╝╚═╝╚═╝  ╚═╝
-#    WORK IN PROGRESS - https://www.tgifelix.com/dotfiles
+#!/usr/bin/env bash
+# ███████╗███████╗██╗  ██╗██████╗  ██████╗
+# ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
+#   ███╔╝ ███████╗███████║██████╔╝██║     
+#  ███╔╝  ╚════██║██╔══██║██╔══██╗██║     
+# ███████╗███████║██║  ██║██║  ██║╚██████╗
+# ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
+# https://www.tgifelix.com/dotfiles
 
-# Themes/Plugins
+# Themes & Plugins
 if [[ -n $SSH_CONNECTION ]]; then
   fpath+=$HOME/.zsh/typewritten
   autoload -U promptinit; promptinit
@@ -18,11 +18,17 @@ else
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
 
-# Aliases
+# Aliases & Functions
 source $HOME/.aliases
+source $HOME/.functions
 
 # Syntax Highlighting
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Exa
+(($+commands[exa])) && alias \
+ ls='exa -a' \
+ l='exa -la'
 
 # History
 HISTFILE=$HOME/.zsh_history
@@ -37,9 +43,3 @@ setopt hist_ignore_space
 setopt no_beep
 setopt correct
 setopt AUTO_CD
-
-# Exa
-(($+commands[exa])) && alias \
- ls='exa -a' \
- l='exa -la'
-
