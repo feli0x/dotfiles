@@ -16,7 +16,12 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   source $HOME/.zsh/geometry/geometry.zsh
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+  source $HOME/dotfiles/plugins/sudo.zsh
 fi
+
+# Plugins
+source $HOME/dotfiles/plugins/sudo.zsh
+
 
 # Aliases & Functions
 source $HOME/.aliases
