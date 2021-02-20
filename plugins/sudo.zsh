@@ -1,20 +1,3 @@
-
-# ------------------------------------------------------------------------------
-# Description
-# -----------
-#
-# sudo or sudoedit will be inserted before the command
-#
-# ------------------------------------------------------------------------------
-# Authors
-# -------
-#
-# * Dongweiming <ciici123@gmail.com>
-# * Subhaditya Nath <github.com/subnut>
-# * Marc Cornellà <github.com/mcornella>
-#
-# ------------------------------------------------------------------------------
-
 __sudo-replace-buffer() {
     local old=$1 new=$2 space=${2:+ }
     if [[ ${#LBUFFER} -le ${#old} ]]; then
