@@ -16,12 +16,10 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   source $HOME/.zsh/geometry/geometry.zsh
   source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-  source $HOME/dotfiles/plugins/sudo.zsh
 fi
 
-# Plugins
+# Sudo
 source $HOME/dotfiles/plugins/sudo.zsh
-
 
 # Aliases & Functions
 source $HOME/.aliases
@@ -32,8 +30,8 @@ source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Exa
 (($+commands[exa])) && alias \
- ls='exa -a' \
- l='exa -la'
+ ls='exa -la' \
+ l='exa -a'
 
 # History
 HISTFILE=$HOME/.zsh_history
