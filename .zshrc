@@ -30,7 +30,7 @@ source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Exa
 (($+commands[exa])) && alias \
- ls='exa -la' \
+ ls='exa -la --sort=modified' \
  l='exa -a'
 
 # History
