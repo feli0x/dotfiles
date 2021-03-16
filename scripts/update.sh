@@ -22,6 +22,7 @@ cd $HOME/dotfiles
 # }}}
 git pull
 cp .aliases $HOME/.aliases
+cp .functions $HOME/.functions
 cp .zshrc $HOME/.zshrc
 # }}}
 cd $dir

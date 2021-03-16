@@ -26,6 +26,8 @@ timestamp() {
 cp $HOME/.zshrc $HOME/dotfiles/.zshrc
 cp $HOME/.vimrc $HOME/dotfiles/.vimrc
 cp $HOME/.aliases $HOME/dotfiles/.aliases
+cp $HOME/.functions $HOME/dotfiles/.functions
+
 # }}}
 cd $HOME/dotfiles
 # }}}
