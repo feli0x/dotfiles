@@ -4,21 +4,24 @@ color1='\033[0;35m'
 color2='\033[1;36m'
 dir=$PWD
 # }}}
-fancyprint () {
+fancyPrint () {
     printf '%b\n' "$1$2$color_off" >&2
 }
 # }}}
+dotFiles () {
+    fancyPrint ${color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
+    fancyPrint ${color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
+    fancyPrint ${color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
+    fancyPrint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
+    fancyPrint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
+    fancyPrint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
+    fancyPrint ${color2} ' https://www.tgifelix.com/dotfiles'
+}
 clear
 echo ''
-fancyprint ${color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
-fancyprint ${color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
-fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
-fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
+dotFiles
 echo ''
-fancyprint ${color2} ' >> Cloning Plugins'
+fancyPrint ${color2} ' >> Cloning Plugins'
 echo ''
 git clone https://github.com/geometry-zsh/geometry $HOME/.zsh/geometry
 git clone https://github.com/reobin/typewritten.git $HOME/.zsh/typewritten
@@ -29,32 +32,20 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.zsh/zs
 clear
 # }}}
 echo ''
-fancyprint ${color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
-fancyprint ${color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
-fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
-fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
+dotFiles
 echo ''
-fancyprint ${color2} ' >> Copying DotFiles'
+fancyPrint ${color2} ' >> Copying DotFiles'
 echo ''
 cp -v $HOME/dotfiles/.aliases $HOME/.aliases
 sleep 1
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 1
-fancyprint ${color2} ' >> DONE!'
+fancyPrint ${color2} ' >> DONE!'
 sleep 2
 clear
 # }}}
 echo ''
-fancyprint ${color1} ' ██████╗  ██████╗ ████████╗███████╗██╗██╗     ███████╗███████╗'
-fancyprint ${color1} ' ██╔══██╗██╔═══██╗╚══██╔══╝██╔════╝██║██║     ██╔════╝██╔════╝'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   █████╗  ██║██║     █████╗  ███████╗'
-fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
-fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
-fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://www.tgifelix.com/dotfiles'
+dotFiles
 echo ''
-fancyprint ${color2} ' >> hAcK tHe PLaNeT !'
+fancyPrint ${color2} ' >> hAcK tHe PLaNeT !'
 zsh
