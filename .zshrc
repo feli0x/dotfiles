@@ -44,5 +44,4 @@ setopt hist_ignore_space
 
 # Options
 setopt no_beep
-setopt correct
 setopt AUTO_CD
