@@ -12,10 +12,8 @@ if [[ -n $SSH_CONNECTION ]]; then
   fpath+=$HOME/.zsh/typewritten
   autoload -U promptinit; promptinit
   prompt typewritten
-  source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 else
   source $HOME/.zsh/geometry/geometry.zsh
-  source $HOME/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 fi
 
 # Sudo
@@ -24,6 +22,9 @@ source $HOME/dotfiles/plugins/sudo.zsh
 # Aliases & Functions
 source $HOME/.aliases
 source $HOME/.functions
+
+# Auto Suggestions
+source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Syntax Highlighting
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
