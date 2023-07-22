@@ -5,8 +5,8 @@ Color_off='\033[0m'
 Color='\033[1;35m'
 
 # }}}
-PACKAGES='npm neofetch yarn wget exa rust golang tree htop tldr fzf gh'
-CASKS='iterm2 visual-studio-code notion docker firefox google-chrome brave-browser browserosaurus vlc github raspberry-pi-imager kap'
+PACKAGES='gh npm yarn wget exa tree htop tldr fzz'
+CASKS='iterm2 visual-studio-code'
 
 # }}}
 fancyprint () {

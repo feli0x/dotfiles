@@ -21,7 +21,7 @@ warPi () {
 
 echo ''
 warPi
-fancyprint ${Color2} '                      v1.3 by @_tgifelix'
+fancyprint ${Color2} '                      v1.3 by @_feli0x'
 echo ''
 sleep 2
 

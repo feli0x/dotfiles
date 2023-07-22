@@ -14,11 +14,11 @@ fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   �
 fancyprint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
 fancyprint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
 fancyprint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-fancyprint ${color2} ' https://github.com/tgifelix/dotfiles'
+fancyprint ${color2} ' https://github.com/feli0x/dotfiles'
 echo ''
 # }}}
 fancyprint ${color2} ' >> Nuking DotFiles <<'
 rm -rf $HOME/dotfiles $HOME/.zsh $HOME/.aliases $HOME/.zshrc
-fancyprint ${color2} 'Reinstall with: git clone https://github.com/tgifelix/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/bootstrap.sh'
+fancyprint ${color2} 'Reinstall with: git clone https://github.com/feli0x/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/install.sh'
 sleep 7
 zsh

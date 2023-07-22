@@ -5,7 +5,7 @@
 #  ███╔╝  ╚════██║██╔══██║██╔══██╗██║     
 # ███████╗███████║██║  ██║██║  ██║╚██████╗
 # ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
-# https://www.tgifelix.com/dotfiles
+# https://github.com/feli0x/dotfiles
 
 # Themes & Plugins
 if [[ -n $SSH_CONNECTION ]]; then
@@ -46,3 +46,11 @@ setopt hist_ignore_space
 # Options
 setopt no_beep
 setopt AUTO_CD
+
+# Fuzzy Finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"

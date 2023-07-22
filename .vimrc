@@ -5,7 +5,7 @@
 " ╚██╗ ██╔╝██║██║╚██╔╝██║██╔══██╗██║     
 "  ╚████╔╝ ██║██║ ╚═╝ ██║██║  ██║╚██████╗
 "   ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
-" https://www.tgifelix.com/dotfiles
+" https://github.com/feli0x/dotfiles
                                       
 
 set nocompatible
@@ -70,7 +70,7 @@ let g:startify_custom_header = [
 \ '  ╚██╗ ██╔╝██║██║╚██╔╝██║██║     ██║██╔══╝  ██╔══╝  ',
 \ '   ╚████╔╝ ██║██║ ╚═╝ ██║███████╗██║██║     ███████╗',
 \ '    ╚═══╝  ╚═╝╚═╝     ╚═╝╚══════╝╚═╝╚═╝     ╚══════╝',
-\ '             https://www.tgifelix.com/dotfiles/vimrc',
+\ '             https://github.com/feli0x/dotfiles/vimrc',
 \ '',
 \ ]
 

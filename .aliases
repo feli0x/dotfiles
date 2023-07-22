@@ -5,7 +5,7 @@
 # ██╔══██║██║     ██║██╔══██║╚════██║██╔══╝  ╚════██║
 # ██║  ██║███████╗██║██║  ██║███████║███████╗███████║
 # ╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝
-# https://www.tgifelix.com/dotfiles
+# https://github.com/feli0x/dotfiles
 
 ### GENERAL
 alias tram='tree -a | more'
@@ -25,9 +25,7 @@ alias pi='ssh w@rpi.local'
 alias c='clear'
 alias x='exit'
 alias nuke='rm -rf'
-alias dev='cd ${HOME}/Documents/DEV'
-alias scs='cd $HOME/Documents/DEV/shortcutspace'
-alias tgif='cd $HOME/Documents/DEV/tgifelix'
+alias dev='cd ${HOME}/dev'
 alias dotfiles='cd $HOME/dotfiles'
 alias dotbackup='bash $HOME/dotfiles/scripts/backup.sh'
 alias dotupdate='bash $HOME/dotfiles/scripts/update.sh'
@@ -85,9 +83,6 @@ alias ys='yarn start'
 alias yd='yarn dev'
 alias yb='yarn build'
 alias yi='yarn install'
-alias svelte='npx degit sveltejs/template'
-alias sapper='npx degit "sveltejs/sapper-template#webpack"'
-alias reactjs='npx create-react-app'
 
 ### TMUX
 alias t='tmux -u'
@@ -119,9 +114,3 @@ alias bw0='sudo bettercap --iface wlan1'
 alias kw1='kismet -c wlan1mon'
 alias cheese='sudo ip link set wlan1mon down && sudo macchanger -r wlan1mon && sudo ip link set wlan1mon up'
 alias ohfuck='sudo airmon-ng start wlan1 && sudo besside-ng wlan1mon'
-
-### WORK
-alias devmount='sshfs felix@devserver:/var/www ~/Documents/Mounts/Websites -ovolname=Websites -o reconnect,ServerAliveInterval=15,ServerAliveCountMax=3,defer_permissions,follow_symlinks'
-alias unmount='umount /Users/felix/Documents/Mounts/Websites'
-alias devserver='ssh devserver'
-alias s='shopify'

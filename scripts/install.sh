@@ -15,7 +15,7 @@ dotFiles () {
     fancyPrint ${color1} ' ██║  ██║██║   ██║   ██║   ██╔══╝  ██║██║     ██╔══╝  ╚════██║'
     fancyPrint ${color1} ' ██████╔╝╚██████╔╝   ██║   ██║     ██║███████╗███████╗███████║'
     fancyPrint ${color1} ' ╚═════╝  ╚═════╝    ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝'
-    fancyPrint ${color2} ' https://www.tgifelix.com/dotfiles'
+    fancyPrint ${color2} ' https://github.com/feli0x/dotfiles'
 }
 clear
 echo ''

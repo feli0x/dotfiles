@@ -1,5 +1,5 @@
-## www.tgifelix.com
-This article was originally posted on [my website](https://www.tgifelix.com/).
+## www.feli0x.com
+This article was originally posted on [my website](https://www.feli0x.com/).
 
 ---
 I came across a `dotfiles` repository on GitHub the other day and it instantly made me realize I've been backing up mine wrong! Let’s set up our own GitHub repo and start doing it the right way, today.
@@ -81,10 +81,10 @@ You can use [crontab.guru](https://crontab.guru) to generate how frequent you wa
 
 ### That’s it!
 
-We’ve created a [GitHub repo](https://github.com/tgifelix/dotfiles) to back up dotfiles to, and automated the process with a bash script that runs periodically with cron. As always, drop your feedback in the comments! ✌️
+We’ve created a [GitHub repo](https://github.com/feli0x/dotfiles) to back up dotfiles to, and automated the process with a bash script that runs periodically with cron. As always, drop your feedback in the comments! ✌️
 
 ---
 ### Install (at own risk)
 ```
-git clone https://github.com/tgifelix/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/bootstrap.sh
+git clone https://github.com/feli0x/dotfiles "$HOME/dotfiles" && bash $HOME/dotfiles/scripts/bootstrap.sh
 ```
