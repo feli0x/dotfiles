@@ -9,6 +9,7 @@
 
 ### GENERAL
 alias tram='tree -a | more'
+alias ws='webstorm'
 alias _='sudo'
 alias ..='cd ..'
 alias ...='cd ../..'

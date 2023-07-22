@@ -23,6 +23,7 @@ dotFiles
 echo ''
 fancyPrint ${color2} ' >> Cloning Plugins'
 echo ''
+mkdir .zsh
 git clone https://github.com/geometry-zsh/geometry $HOME/.zsh/geometry
 git clone https://github.com/reobin/typewritten.git $HOME/.zsh/typewritten
 git clone https://github.com/marlonrichert/zsh-autocomplete.git $HOME/.zsh/zsh-autocomplete
@@ -37,6 +38,8 @@ echo ''
 fancyPrint ${color2} ' >> Copying DotFiles'
 echo ''
 cp -v $HOME/dotfiles/.aliases $HOME/.aliases
+sleep 1
+cp -v $HOME/dotfiles/.functions $HOME/.functions
 sleep 1
 cp -v $HOME/dotfiles/.zshrc $HOME/.zshrc
 sleep 1
