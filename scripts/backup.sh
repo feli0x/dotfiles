@@ -24,7 +24,7 @@ timestamp() {
 }
 # }}}
 cp $HOME/.zshrc $HOME/dotfiles/.zshrc
-cp $HOME/.vimrc $HOME/dotfiles/.vimrc
+# cp $HOME/.vimrc $HOME/dotfiles/.vimrc
 cp $HOME/.aliases $HOME/dotfiles/.aliases
 cp $HOME/.functions $HOME/dotfiles/.functions
 
@@ -35,7 +35,7 @@ if [[ `git status --porcelain` ]]; then
 	git pull origin master
 	git add .
 	git commit -m "Update: $(timestamp)"
-	git push origin master
+	git push origin main
 fi
 # }}}
 cd ${dir}
