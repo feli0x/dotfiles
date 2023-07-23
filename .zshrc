@@ -14,6 +14,9 @@ if [[ -n $SSH_CONNECTION ]]; then
   prompt typewritten
 else
   source $HOME/.zsh/geometry/geometry.zsh
+
+  GEOMETRY_STATUS_SYMBOL="🙂"
+  GEOMETRY_STATUS_SYMBOL_ERROR="💀"
 fi
 
 # Sudo
