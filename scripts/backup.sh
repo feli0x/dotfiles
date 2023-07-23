@@ -32,7 +32,7 @@ cp $HOME/.functions $HOME/dotfiles/.functions
 cd $HOME/dotfiles
 # }}}
 if [[ `git status --porcelain` ]]; then
-	git pull origin master
+	git pull origin main
 	git add .
 	git commit -m "Update: $(timestamp)"
 	git push origin main
