@@ -12,7 +12,7 @@ echo ''
 while IFS= read -r line
 do
     fancyprint ${color1} "$line"
-done < "ascii_art.txt"
+done < ".header"
 
 fancyprint ${color2} ' https://github.com/feli0x/dotfiles'
 echo ''
